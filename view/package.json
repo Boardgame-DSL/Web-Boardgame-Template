@@ -1,0 +1,16 @@
+{
+	"name": "web-boardgame-template",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "webpack-cli serve",
+		"build": "webpack-cli --mode=production"
+	},
+	"devDependencies": {
+		"@boardgame-dsl/boardgame": "^0.1.1",
+		"html-webpack-plugin": "^5.3.1",
+		"webpack": "^5.33.2",
+		"webpack-cli": "^4.6.0",
+		"webpack-dev-server": "^3.11.2"
+	}
+}
