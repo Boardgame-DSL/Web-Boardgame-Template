@@ -32,7 +32,7 @@ Well up and running, you should use `ahc-cabal` instead of `cabal` to compile
 the project, we've also have a flag for activating the WASM features.
 Building the executable should look like this now:
 ```sh
-ahc-cabal new-build --flags="wasm"
+ahc-cabal new-build --flags="wasm" --constraint="boardgame +wasm"
 ```
 
 But building targeting WASM doesn't actually get us anything useful. To
